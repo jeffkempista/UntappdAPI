@@ -1,13 +1,16 @@
 PODS:
   - JLRoutes (1.5.1)
+  - Mocktail (1.2)
   - SSKeychain (1.2.2)
 
 DEPENDENCIES:
-  - JLRoutes
-  - SSKeychain
+  - JLRoutes (~> 1.5.1)
+  - Mocktail (~> 1.2)
+  - SSKeychain (~> 1.2.2)
 
 SPEC CHECKSUMS:
   JLRoutes: 3400fe314fc01c861a14ff7e183d209b0cd302ae
+  Mocktail: f913e547c2b701698fc4ff9882d74d83da8f315a
   SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
 
 COCOAPODS: 0.35.0
