@@ -12,12 +12,6 @@
 #define COCOAPODS_VERSION_MINOR_JLRoutes 5
 #define COCOAPODS_VERSION_PATCH_JLRoutes 1
 
-// Mocktail
-#define COCOAPODS_POD_AVAILABLE_Mocktail
-#define COCOAPODS_VERSION_MAJOR_Mocktail 1
-#define COCOAPODS_VERSION_MINOR_Mocktail 2
-#define COCOAPODS_VERSION_PATCH_Mocktail 0
-
 // SSKeychain
 #define COCOAPODS_POD_AVAILABLE_SSKeychain
 #define COCOAPODS_VERSION_MAJOR_SSKeychain 1

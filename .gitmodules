@@ -1,3 +1,6 @@
 [submodule "Alamofire"]
 	path = Alamofire
 	url = https://github.com/Alamofire/Alamofire.git
+[submodule "objc-mocktail"]
+	path = objc-mocktail
+	url = https://github.com/square/objc-mocktail.git

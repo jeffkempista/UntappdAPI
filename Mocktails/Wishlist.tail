@@ -1,0 +1,1029 @@
+GET
+https://.*/v4/user/wishlist
+200
+Content-Type: application/json; charset=utf-8
+
+{
+  "meta": {
+    "code": 200,
+    "response_time": {
+      "time": 0.133,
+      "measure": "seconds"
+    },
+    "init_time": {
+      "time": 0.002,
+      "measure": "seconds"
+    }
+  },
+  "notifications": [],
+  "response": {
+    "sort": "",
+    "sort_english": "Date (Descending)",
+    "type_id": 0,
+    "beers": {
+      "count": 25,
+      "items": [
+        {
+          "created_at": "Thu, 23 Oct 2014 03:46:39 +0000",
+          "beer": {
+            "bid": 121023,
+            "beer_name": "Space Dust IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-121023_a79a0_sm.jpeg",
+            "beer_abv": 7.2,
+            "beer_ibu": 62,
+            "beer_slug": "elysian-brewing-space-dust-ipa",
+            "beer_description": "Space Dust :: A Totally Nebular IPA. Great Western premium two-row, combined with c-15 and Dextri-Pils, give this beer a bright and galactic Milky Way hue.  The hopping is pure starglow energy, with Chinook to bitter and late and dry additions of Citra and Amarillo.  Space Dust is out of this world, with 62 IBU, and 7.2% ABV.",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Tue, 17 Jan 2012 12:48:42 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.96,
+            "rating_count": 13890,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 7294,
+            "brewery_name": "Elysian Brewing",
+            "brewery_slug": "elysian-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-7294_35aa6.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "ElysianBrewing",
+              "facebook": "https://www.facebook.com/ElysianBrewingCompany",
+              "instagram": "elysianbrewing",
+              "url": "http://www.elysianbrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Seattle",
+              "brewery_state": "WA",
+              "lat": 47.614,
+              "lng": -122.316
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Thu, 23 Oct 2014 03:35:38 +0000",
+          "beer": {
+            "bid": 259434,
+            "beer_name": "Cedar Plank Pale Ale",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-259434_72675_sm.jpeg",
+            "beer_abv": 6,
+            "beer_ibu": 44,
+            "beer_slug": "green-flash-brewing-co-cedar-plank-pale-ale",
+            "beer_description": "30th street pale ale aged with cedar plank",
+            "is_in_production": 1,
+            "beer_style": "American Pale Ale",
+            "created_at": "Wed, 07 Nov 2012 20:01:05 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.54,
+            "rating_count": 9085,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 609,
+            "brewery_name": "Green Flash Brewing Co.",
+            "brewery_slug": "green-flash-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-GreenFlashBrewingCo_609.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "GreenFlashBeer",
+              "facebook": "http://www.facebook.com/GreenFlashBrew",
+              "instagram": "greenflashbeer",
+              "url": "http://www.greenflashbrew.com"
+            },
+            "location": {
+              "brewery_city": "San Diego",
+              "brewery_state": "CA",
+              "lat": 32.9073,
+              "lng": -117.178
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Thu, 23 Oct 2014 03:34:24 +0000",
+          "beer": {
+            "bid": 839244,
+            "beer_name": "Forever Green",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 4.8,
+            "beer_ibu": 0,
+            "beer_slug": "other-half-brewing-forever-green",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Fri, 10 Oct 2014 02:34:42 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.79,
+            "rating_count": 300,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 94785,
+            "brewery_name": "Other Half Brewing",
+            "brewery_slug": "other-half-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-OtherHalfBrewing_94785_7c587.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OtherHalfNYC",
+              "facebook": "https://www.facebook.com/pages/Other-Half-Brewing-Company/181017618761260",
+              "instagram": "OtherHalfNYC",
+              "url": "http://otherhalfbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Brooklyn",
+              "brewery_state": "NY",
+              "lat": 40.6737,
+              "lng": -73.9991
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Mon, 01 Sep 2014 03:43:46 +0000",
+          "beer": {
+            "bid": 715788,
+            "beer_name": "18th Anniversary IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-715788_d9496_sm.jpeg",
+            "beer_abv": 8.5,
+            "beer_ibu": 75,
+            "beer_slug": "stone-brewing-co-18th-anniversary-ipa",
+            "beer_description": "As we compose the text for this celebratory beer‐a golden‐brown India pale ale dry-hopped exclusively and abundantly with El Dorado hops‐we stand ready to leap from the precipice of all we know into a new era for our company, our beers and, most importantly, our fans. It’s one that will see us exploring new territory, both geographically and creatively, as we evolve from pacesetters for the American craft brewing movement to cross‐planetary champions of the worldwide cause of craft, hoisting our banner to proclaim artisanal beers’ vast superiority over stripped‐down, business-driven, industrialized, fizzy, yellow mediocrity. We thank you for shadowing us for the first 18 years of our journey, and welcome you to join us for next leg and all that follows.",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Sun, 15 Jun 2014 13:10:09 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.89,
+            "rating_count": 31735,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing Co.",
+            "brewery_slug": "stone-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-stone.jpg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrew.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sat, 23 Aug 2014 10:49:04 +0000",
+          "beer": {
+            "bid": 779168,
+            "beer_name": "Cool Summer, Bro!",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-779168_95d4b_sm.jpeg",
+            "beer_abv": 5,
+            "beer_ibu": 0,
+            "beer_slug": "other-half-brewing-cool-summer-bro",
+            "beer_description": "Pale wheat with Brett. Dry-hopped with Nelson Sauvin",
+            "is_in_production": 1,
+            "beer_style": "American Pale Wheat Ale",
+            "created_at": "Thu, 14 Aug 2014 22:07:57 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.63,
+            "rating_count": 604,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 94785,
+            "brewery_name": "Other Half Brewing",
+            "brewery_slug": "other-half-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-OtherHalfBrewing_94785_7c587.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OtherHalfNYC",
+              "facebook": "https://www.facebook.com/pages/Other-Half-Brewing-Company/181017618761260",
+              "instagram": "OtherHalfNYC",
+              "url": "http://otherhalfbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Brooklyn",
+              "brewery_state": "NY",
+              "lat": 40.6737,
+              "lng": -73.9991
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sat, 12 Jul 2014 20:04:04 +0000",
+          "beer": {
+            "bid": 725000,
+            "beer_name": "Gangster Duck",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-725000_927f0_sm.jpeg",
+            "beer_abv": 6.2,
+            "beer_ibu": 0,
+            "beer_slug": "radiant-pig-craft-beers-gangster-duck",
+            "beer_description": "An American Red Ale influenced by multiple beer styles. Intense citrus and stone fruits dominate the nose (or beak if we're staying with the duck theme), yet the bitterness from the hops is balanced by Belgian and American crystal malts. It smells like an IPA exploding with fancy American hops but has a smooth, malty-but-not-too-malty finish.\n\nGangster Duck is named after the 1983 art/hip hop classic \"Beat Bop\". The collaboration featured New York artists Jean-Michel Basquiat (the Radiant Child), Rammellzee and K-Rob. When asked to describe his nasal, abstract rhyme style Rammellzee called it \"The Gangster Duck\".\nMaking the name a homage to creating your own style.",
+            "is_in_production": 1,
+            "beer_style": "American Amber / Red Ale",
+            "created_at": "Tue, 24 Jun 2014 18:47:23 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.53,
+            "rating_count": 970,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 57402,
+            "brewery_name": "Radiant Pig Craft Beers",
+            "brewery_slug": "radiant-pig-craft-beers",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-radiantpig_57402.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "radiantpigbeer",
+              "facebook": "http://facebook.com/radiantpigbeer",
+              "instagram": "",
+              "url": "http://radiantpigbeer.com/"
+            },
+            "location": {
+              "brewery_city": "New York",
+              "brewery_state": "NY",
+              "lat": 40.7144,
+              "lng": -74.006
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sat, 12 Jul 2014 18:45:40 +0000",
+          "beer": {
+            "bid": 695288,
+            "beer_name": "Hup!Hup!Hup!",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-695288_a5a68_sm.jpeg",
+            "beer_abv": 5.5,
+            "beer_ibu": 35,
+            "beer_slug": "other-half-brewing-hup-hup-hup",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "Saison / Farmhouse Ale",
+            "created_at": "Tue, 27 May 2014 17:28:56 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.68,
+            "rating_count": 437,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 94785,
+            "brewery_name": "Other Half Brewing",
+            "brewery_slug": "other-half-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-OtherHalfBrewing_94785_7c587.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OtherHalfNYC",
+              "facebook": "https://www.facebook.com/pages/Other-Half-Brewing-Company/181017618761260",
+              "instagram": "OtherHalfNYC",
+              "url": "http://otherhalfbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Brooklyn",
+              "brewery_state": "NY",
+              "lat": 40.6737,
+              "lng": -73.9991
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sat, 17 May 2014 23:04:01 +0000",
+          "beer": {
+            "bid": 673210,
+            "beer_name": "Citra IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-673210_6f6ac_sm.jpeg",
+            "beer_abv": 6.8,
+            "beer_ibu": 65,
+            "beer_slug": "other-half-brewing-citra-ipa",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Thu, 08 May 2014 10:53:07 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.04,
+            "rating_count": 460,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 94785,
+            "brewery_name": "Other Half Brewing",
+            "brewery_slug": "other-half-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-OtherHalfBrewing_94785_7c587.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OtherHalfNYC",
+              "facebook": "https://www.facebook.com/pages/Other-Half-Brewing-Company/181017618761260",
+              "instagram": "OtherHalfNYC",
+              "url": "http://otherhalfbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Brooklyn",
+              "brewery_state": "NY",
+              "lat": 40.6737,
+              "lng": -73.9991
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 09 Feb 2014 15:12:33 +0000",
+          "beer": {
+            "bid": 6272,
+            "beer_name": "Gandhi-Bot",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-GandhiBot_6272.jpeg",
+            "beer_abv": 8.8,
+            "beer_ibu": 85,
+            "beer_slug": "new-england-brewing-co-gandhi-bot",
+            "beer_description": "Ghandi-Bot is an intensely hopped Double India Pale Ale with a blend of three varieties of American hops. ",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Wed, 06 Oct 2010 11:31:00 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.39,
+            "rating_count": 10144,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1467,
+            "brewery_name": "New England Brewing Co.",
+            "brewery_slug": "new-england-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-NewEnglandBrewingCo_1467.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "NewEnglandBrew",
+              "facebook": "http://www.facebook.com/pages/New-England-Brewing-Co/58798029455",
+              "instagram": "",
+              "url": "http://www.newenglandbrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Woodbridge",
+              "brewery_state": "CT",
+              "lat": 41.3389,
+              "lng": -72.9817
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 19 Jan 2014 05:53:59 +0000",
+          "beer": {
+            "bid": 259507,
+            "beer_name": "Bliss",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_259507_f3ce34a2d9c449b128155b0abc02.jpeg",
+            "beer_abv": 6,
+            "beer_ibu": 0,
+            "beer_slug": "the-wild-beer-co-bliss",
+            "beer_description": "We love nothing better than Belgian-style saison but with this blissful version we’ve added our own Wild interpretation of the style by adding a dash of funky Brettanomyces yeast plus roasted apricots and a hush-hush blend of spices. All of this makes for an extraordinary beer with an array of aromas that leap out of the glass followed by a spicy, fruity, tart and peppery palate and a long lingering finish.\n\nBliss can be drunk fresh or left to age when it becomes drier and more complex as the Brett (the yeast not our brewer!) gets to work in the bottle. This is the sort of beer where study and contemplation is essential.\n\n50kg of roasted apricots went into the boil with more added to the fermentor as well as our blend of spices.",
+            "is_in_production": 1,
+            "beer_style": "Saison / Farmhouse Ale",
+            "created_at": "Thu, 08 Nov 2012 03:39:33 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.38,
+            "rating_count": 2407,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 41559,
+            "brewery_name": "The Wild Beer Co",
+            "brewery_slug": "the-wild-beer-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-TheWildBeerCo_41559.jpeg",
+            "country_name": "England",
+            "contact": {
+              "twitter": "WildBeerCo",
+              "facebook": "http://www.facebook.com/WildBeerCo",
+              "instagram": "",
+              "url": "www.wildbeerco.com"
+            },
+            "location": {
+              "brewery_city": "Evercreech",
+              "brewery_state": "Somerset, BA4 6ER",
+              "lat": 51.1518,
+              "lng": -2.46339
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Fri, 03 Jan 2014 15:01:50 +0000",
+          "beer": {
+            "bid": 477842,
+            "beer_name": "Fatamorgana",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_477842_sm_8a6cb06ff6b55b33859b23ee665936.jpeg",
+            "beer_abv": 8,
+            "beer_ibu": 0,
+            "beer_slug": "omnipollo-fatamorgana",
+            "beer_description": " Dry-hopped twice with Columbus/Centennial/Citra",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Mon, 14 Oct 2013 14:28:49 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.13,
+            "rating_count": 4237,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 29486,
+            "brewery_name": "Omnipollo",
+            "brewery_slug": "omnipollo",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-Omnipollo_29486_68ed9.jpeg",
+            "country_name": "Sweden",
+            "contact": {
+              "twitter": "",
+              "facebook": "",
+              "instagram": "",
+              "url": "http://www.omnipollo.com/"
+            },
+            "location": {
+              "brewery_city": "Stockholm",
+              "brewery_state": "",
+              "lat": 59.3149,
+              "lng": 18.0745
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Fri, 03 Jan 2014 15:01:46 +0000",
+          "beer": {
+            "bid": 49892,
+            "beer_name": "Lunch",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-Lunch_49892.jpeg",
+            "beer_abv": 7,
+            "beer_ibu": 0,
+            "beer_slug": "maine-beer-company-lunch",
+            "beer_description": "Our “East Coast” version of a West Coast-style IPA.  Intense hop flavors and aromas of tropical and citrus fruits and pine dominate.  A subtle malt sweetness brings the beer into balance.",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Fri, 13 May 2011 12:35:42 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.32,
+            "rating_count": 18679,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2874,
+            "brewery_name": "Maine Beer Company",
+            "brewery_slug": "maine-beer-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-2874_3d389.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "mainebeerco",
+              "facebook": "http://www.facebook.com/profile.php?id=100000166263148",
+              "instagram": "mainebeerco",
+              "url": "http://www.mainebeercompany.com"
+            },
+            "location": {
+              "brewery_city": "Freeport",
+              "brewery_state": "ME",
+              "lat": 43.8391,
+              "lng": -70.1214
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Thu, 05 Dec 2013 19:58:43 +0000",
+          "beer": {
+            "bid": 7982,
+            "beer_name": "Massive IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-7982_1cde5_sm.jpeg",
+            "beer_abv": 6.8,
+            "beer_ibu": 50,
+            "beer_slug": "great-south-bay-brewery-massive-ipa",
+            "beer_description": "This whale of a brew begins with a huge grain bill, consisting of American 2-Row malted barley.  Plenty of the finest American-grown hops are then introduced at every stage of the brewing process.  Massive additions of hops in the boil kettle produce a smooth yet assertive finish.  In a technique called hop-backing, the boiling wort is pumped over more fresh hops on its way to the fermenter - this lends huge hop flavor.  Finally, the addition of whole cone hops into the conditioning tank imparts a hops-bursting-out-of-the-glass aroma, rounding out a complete hop sensory experience!",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Mon, 08 Nov 2010 04:09:40 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.62,
+            "rating_count": 1812,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2142,
+            "brewery_name": "Great South Bay Brewery",
+            "brewery_slug": "great-south-bay-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-GreatSouthBayBrewery_2142.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "greatsouthbay",
+              "facebook": "http://facebook.com/greatsouthbaybrewery",
+              "instagram": "",
+              "url": "http://www.greatsouthbaybrewery.com"
+            },
+            "location": {
+              "brewery_city": "Bay Shore",
+              "brewery_state": "NY",
+              "lat": 40.7612,
+              "lng": -73.2635
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Thu, 05 Dec 2013 19:58:25 +0000",
+          "beer": {
+            "bid": 70974,
+            "beer_name": "Blood Orange Pale Ale",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-70974_50eba_sm.jpeg",
+            "beer_abv": 5,
+            "beer_ibu": 40,
+            "beer_slug": "great-south-bay-brewery-blood-orange-pale-ale",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "American Pale Ale",
+            "created_at": "Thu, 11 Aug 2011 07:21:02 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.53,
+            "rating_count": 4107,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2142,
+            "brewery_name": "Great South Bay Brewery",
+            "brewery_slug": "great-south-bay-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-GreatSouthBayBrewery_2142.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "greatsouthbay",
+              "facebook": "http://facebook.com/greatsouthbaybrewery",
+              "instagram": "",
+              "url": "http://www.greatsouthbaybrewery.com"
+            },
+            "location": {
+              "brewery_city": "Bay Shore",
+              "brewery_state": "NY",
+              "lat": 40.7612,
+              "lng": -73.2635
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Mon, 09 Sep 2013 13:45:09 +0000",
+          "beer": {
+            "bid": 30257,
+            "beer_name": "Café Racer 15™",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_30257_sm_3702381d8df3d58ab19be470c36047.jpeg",
+            "beer_abv": 9.75,
+            "beer_ibu": 100,
+            "beer_slug": "bear-republic-brewing-co-cafe-racer-15-tm",
+            "beer_description": "Café Racer 15™ features aromas of bright citrus and resinous pine from the generous use of Citra, Amarillo, Cascade and Chinook hops which are complimented by a dry malt finish. The result is a high revving Double IPA that is loud and assertive, much like the rebellious street racers who inspired it. Never ride alone...\n",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Sat, 12 Feb 2011 23:52:36 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.11,
+            "rating_count": 15199,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 94,
+            "brewery_name": "Bear Republic Brewing Co.",
+            "brewery_slug": "bear-republic-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-bearrepublicbrewingco_94.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "bearrepublic",
+              "facebook": "http://www.facebook.com/bearrepublic",
+              "instagram": "bearrepublic",
+              "url": "http://www.bearrepublic.com/"
+            },
+            "location": {
+              "brewery_city": "Healdsburg",
+              "brewery_state": "CA",
+              "lat": 38.6111,
+              "lng": -122.871
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Mon, 26 Aug 2013 15:23:35 +0000",
+          "beer": {
+            "bid": 5928,
+            "beer_name": "Harpoon IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_5928_sm_d394181dbe8924c9eeff757df63dd7.jpeg",
+            "beer_abv": 5.9,
+            "beer_ibu": 42,
+            "beer_slug": "harpoon-brewery-harpoon-ipa",
+            "beer_description": "We started brewing this beer as a summer seasonal in 1993.  There were some great IPAs out in the Pacific Northwest, but no local IPAs on the east coast.  We wanted to have a local IPA, so we brewed one.  People absolutely loved it, and so did we.  So we made it a year-round beer, and it’s now our bestselling beer and our flagship.\nDescription: Since its introduction, Harpoon IPA has remained unique in its ability to balance hop bitterness with a strong malt backbone. Dry-hopped with Cascade hops, it has a floral hop aroma and a finish that is bitter (it is an IPA after all!) without being harsh or astringent. Combined with a malty sweetness and the fruity esters of our proprietary yeast, those hops create a beer that is wonderfully hoppy but clean and refreshing enough to enjoy a few of - and we hope you do.    ",
+            "is_in_production": 1,
+            "beer_style": "American IPA",
+            "created_at": "Thu, 30 Sep 2010 09:47:22 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.48,
+            "rating_count": 57489,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 634,
+            "brewery_name": "Harpoon Brewery",
+            "brewery_slug": "harpoon-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-HarpoonBrewery_634.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "harpoon_brewery",
+              "facebook": "http://www.facebook.com/TheHarpoonBrewery",
+              "instagram": "harpoonbrewery",
+              "url": "http://www.harpoonbrewery.com"
+            },
+            "location": {
+              "brewery_city": "Boston",
+              "brewery_state": "MA",
+              "lat": 42.3465,
+              "lng": -71.0344
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 18 Aug 2013 13:12:43 +0000",
+          "beer": {
+            "bid": 389713,
+            "beer_name": "Robert Masterson & Ryan Reschan/Rip Current/Stone R&R Coconut IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-389713_4798a_sm.jpeg",
+            "beer_abv": 7.7,
+            "beer_ibu": 0,
+            "beer_slug": "stone-brewing-co-robert-masterson-ryan-reschan-rip-current-stone-r-r-coconut-ipa",
+            "beer_description": "American IPA brewed and flavored with coconut. ",
+            "is_in_production": 0,
+            "beer_style": "American IPA",
+            "created_at": "Fri, 21 Jun 2013 17:33:22 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.59,
+            "rating_count": 18972,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing Co.",
+            "brewery_slug": "stone-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-stone.jpg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrew.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Mon, 12 Aug 2013 17:22:07 +0000",
+          "beer": {
+            "bid": 409744,
+            "beer_name": "Beer Camp #94 Belgian-Style Black IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_409744_sm_1a824ac5b99e1f81d56374f520b050.jpeg",
+            "beer_abv": 8,
+            "beer_ibu": 52,
+            "beer_slug": "sierra-nevada-brewing-co-beer-camp-94-belgian-style-black-ipa",
+            "beer_description": "2013 Beer Camp release",
+            "is_in_production": 0,
+            "beer_style": "Belgian IPA",
+            "created_at": "Fri, 19 Jul 2013 22:24:06 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.69,
+            "rating_count": 9834,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1142,
+            "brewery_name": "Sierra Nevada Brewing Co.",
+            "brewery_slug": "sierra-nevada-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-1142_f241d.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "SierraNevada",
+              "facebook": "http://www.facebook.com/sierranevadabeer",
+              "instagram": "sierranevada",
+              "url": "http://www.sierranevada.com/"
+            },
+            "location": {
+              "brewery_city": "Chico",
+              "brewery_state": "CA",
+              "lat": 39.7246,
+              "lng": -121.816
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Tue, 23 Jul 2013 02:23:41 +0000",
+          "beer": {
+            "bid": 355380,
+            "beer_name": "Stone RuinTen IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-_355380_sm_3e7120608d726ecef36bd3ce6c334e.jpeg",
+            "beer_abv": 10.8,
+            "beer_ibu": 110,
+            "beer_slug": "stone-brewing-co-stone-ruinten-ipa",
+            "beer_description": "In our Brewers’ Tasting Panel, we all get excited every time we sample one of our new beers for the first time. When we absolutely nail a beer, and get exactly what we were hoping for on the first swing, we call it a homerun. This morning’s (hey, we’re professionals!) taste panel was definitely a homerun. Or, as Brewing Supervisor Mike Richmond commented, “this one has got the love.” We brewed this beer using the same ingredients as in our classic Stone Ruination IPA, but bumped up the malt to achieve its elevated 10.8% ABV. And of course we jacked up the hops as well. Not just in the boil, but we doubled the dry-hop amount, using a 50/50 blend of Centennial and Citra. The combination is, dare I say, magic.",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Tue, 30 Apr 2013 12:07:16 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.26,
+            "rating_count": 45545,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing Co.",
+            "brewery_slug": "stone-brewing-co",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-stone.jpg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrew.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Tue, 03 Jul 2012 02:10:23 +0000",
+          "beer": {
+            "bid": 80822,
+            "beer_name": "URKontinent",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-URKontinent_80822.jpeg",
+            "beer_abv": 8.1,
+            "beer_ibu": 0,
+            "beer_slug": "dogfish-head-craft-brewery-urkontinent",
+            "beer_description": "Collaboration with Google yielded this Belgian dark ale with flavors of coffee and chocolate covered cherries.",
+            "is_in_production": 1,
+            "beer_style": "Belgian Dubbel",
+            "created_at": "Fri, 23 Sep 2011 13:16:07 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.81,
+            "rating_count": 3611,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 459,
+            "brewery_name": "Dogfish Head Craft Brewery",
+            "brewery_slug": "dogfish-head-craft-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-DogfishHeadCraftBrewery_459.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "dogfishbeer",
+              "facebook": "http://www.facebook.com/dogfishheadbeer",
+              "instagram": "dogfishbeer",
+              "url": "http://www.dogfish.com/"
+            },
+            "location": {
+              "brewery_city": "Milton",
+              "brewery_state": "DE",
+              "lat": 38.7776,
+              "lng": -75.3099
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Tue, 03 Jul 2012 02:00:52 +0000",
+          "beer": {
+            "bid": 2743,
+            "beer_name": "Alpha King",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-threeflydsAlphaKing.jpg",
+            "beer_abv": 6.66,
+            "beer_ibu": 66,
+            "beer_slug": "three-floyds-brewing-company-alpha-king",
+            "beer_description": "Big American Pale Ale with citrusy aroma- a hop lover's cult beer and 3 Floyds flagship beer Brewed with Cenntennial, Cascade & Warrior Hops",
+            "is_in_production": 1,
+            "beer_style": "American Pale Ale",
+            "created_at": "Sat, 21 Aug 2010 07:26:35 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.02,
+            "rating_count": 39425,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2470,
+            "brewery_name": "3 Floyds Brewing Company",
+            "brewery_slug": "3-floyds-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-2470_90eff.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "3floyds",
+              "facebook": "https://www.facebook.com/pages/3floyds",
+              "instagram": "3floydsbrewing",
+              "url": "http://www.3floyds.com/"
+            },
+            "location": {
+              "brewery_city": "Munster",
+              "brewery_state": "IN",
+              "lat": 41.5355,
+              "lng": -87.5167
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Wed, 20 Jun 2012 04:10:11 +0000",
+          "beer": {
+            "bid": 45349,
+            "beer_name": "Nelson Imperial IPA",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-NelsonImperialIPA_45349.jpeg",
+            "beer_abv": 8.6,
+            "beer_ibu": 70,
+            "beer_slug": "widmer-brothers-brewing-nelson-imperial-ipa",
+            "beer_description": "Take your taste buds on a journey to the far side of the world. New Zealand’s legendary Nelson Sauvin hop gives us a powerful hoppy character, but none of the heaviness you sometimes find in Imperial IPAs. The result is a big brew with a sweet, malty character that perfectly balances the intense hop aroma and flavor. ",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Thu, 21 Apr 2011 22:45:05 +0000",
+            "auth_rating": 0,
+            "rating_score": 3.7,
+            "rating_count": 6834,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 3028,
+            "brewery_name": "Widmer Brothers Brewing",
+            "brewery_slug": "widmer-brothers-brewing",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-widmerbrothersbrewingcompany_3028.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "widmer_brothers",
+              "facebook": "http://www.facebook.com/WidmerBrothersBrewing",
+              "instagram": "widmer_brothers",
+              "url": "http://www.widmerbrothers.com"
+            },
+            "location": {
+              "brewery_city": "Portland",
+              "brewery_state": "OR",
+              "lat": 45.541,
+              "lng": -122.676
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 17 Jun 2012 20:31:41 +0000",
+          "beer": {
+            "bid": 42944,
+            "beer_name": "Double Galaxy",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_abv": 8,
+            "beer_ibu": 0,
+            "beer_slug": "hill-farmstead-brewery-double-galaxy",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Sun, 10 Apr 2011 11:23:40 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.55,
+            "rating_count": 1757,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2562,
+            "brewery_name": "Hill Farmstead Brewery",
+            "brewery_slug": "hill-farmstead-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-2562_05a28.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "HillFarmstead",
+              "facebook": "http://www.facebook.com/hillfarmstead",
+              "instagram": "hillfarmstead",
+              "url": "http://www.hillfarmstead.com"
+            },
+            "location": {
+              "brewery_city": "Greensboro",
+              "brewery_state": "VT",
+              "lat": 44.6067,
+              "lng": -72.2634
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 17 Jun 2012 20:31:33 +0000",
+          "beer": {
+            "bid": 8210,
+            "beer_name": "Citra",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-CitraDIPA_8210.jpeg",
+            "beer_abv": 8,
+            "beer_ibu": 0,
+            "beer_slug": "kern-river-brewing-company-citra",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Tue, 09 Nov 2010 13:11:05 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.53,
+            "rating_count": 2961,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 1498,
+            "brewery_name": "Kern River Brewing Company",
+            "brewery_slug": "kern-river-brewing-company",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-KernRiverBrewingCompany_1498.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "kernriverbrewin",
+              "facebook": "http://www.facebook.com/pages/Kern-River-Brewing-Company/117718134955392",
+              "instagram": "kernriverbrewing",
+              "url": "http://www.kernriverbrewingcompany.com/"
+            },
+            "location": {
+              "brewery_city": "Kernville",
+              "brewery_state": "CA",
+              "lat": 35.7575,
+              "lng": -118.419
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        },
+        {
+          "created_at": "Sun, 29 Apr 2012 20:01:01 +0000",
+          "beer": {
+            "bid": 34271,
+            "beer_name": "Ephraim",
+            "beer_label": "https://d1c8v1qci5en44.cloudfront.net/site/beer_logos/beer-Ephraim_34271.jpeg",
+            "beer_abv": 10.5,
+            "beer_ibu": 0,
+            "beer_slug": "hill-farmstead-brewery-ephraim",
+            "beer_description": "",
+            "is_in_production": 1,
+            "beer_style": "Imperial / Double IPA",
+            "created_at": "Wed, 02 Mar 2011 13:54:52 +0000",
+            "auth_rating": 0,
+            "rating_score": 4.57,
+            "rating_count": 1621,
+            "wish_list": false
+          },
+          "brewery": {
+            "brewery_id": 2562,
+            "brewery_name": "Hill Farmstead Brewery",
+            "brewery_slug": "hill-farmstead-brewery",
+            "brewery_label": "https://d1c8v1qci5en44.cloudfront.net/site/brewery_logos/brewery-2562_05a28.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "HillFarmstead",
+              "facebook": "http://www.facebook.com/hillfarmstead",
+              "instagram": "hillfarmstead",
+              "url": "http://www.hillfarmstead.com"
+            },
+            "location": {
+              "brewery_city": "Greensboro",
+              "brewery_state": "VT",
+              "lat": 44.6067,
+              "lng": -72.2634
+            },
+            "brewery_active": 1
+          },
+          "friends": []
+        }
+      ]
+    }
+  }
+}

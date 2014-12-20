@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B1F308FEDA5FD7484B41060 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61352EFB51D86D207AB87D6 /* libPods.a */; };
+		1F278B3A1A45D1FD00BACAED /* UserInfo.tail in Resources */ = {isa = PBXBuildFile; fileRef = 1F278B391A45D1FD00BACAED /* UserInfo.tail */; };
+		1F278B3C1A45D83B00BACAED /* Wishlist.tail in Resources */ = {isa = PBXBuildFile; fileRef = 1F278B3B1A45D83B00BACAED /* Wishlist.tail */; };
+		1F31E4191A45E4B0005AC5E6 /* libMocktail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F31E4111A45E439005AC5E6 /* libMocktail.a */; };
 		1F6CF8501A3698C5002BDA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF84F1A3698C5002BDA2F /* AppDelegate.swift */; };
 		1F6CF8521A3698C5002BDA2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF8511A3698C5002BDA2F /* ViewController.swift */; };
 		1F6CF8551A3698C5002BDA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CF8531A3698C5002BDA2F /* Main.storyboard */; };
@@ -21,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F31E4101A45E439005AC5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A822633E16C45BC4007C81BC;
+			remoteInfo = Mocktail;
+		};
+		1F31E4141A45E46F005AC5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A822633D16C45BC4007C81BC;
+			remoteInfo = Mocktail;
+		};
 		1F6CF8601A3698C5002BDA2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F6CF8421A3698C5002BDA2F /* Project object */;
@@ -67,6 +84,9 @@
 
 /* Begin PBXFileReference section */
 		1EB5F0FF04717E1D69E82755 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1F278B391A45D1FD00BACAED /* UserInfo.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserInfo.tail; sourceTree = "<group>"; };
+		1F278B3B1A45D83B00BACAED /* Wishlist.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wishlist.tail; sourceTree = "<group>"; };
+		1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mocktail.xcodeproj; path = "objc-mocktail/Mocktail.xcodeproj"; sourceTree = "<group>"; };
 		1F6C66031A390DC6003482A6 /* UntappdAPI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UntappdAPI-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F6CF84A1A3698C5002BDA2F /* UntappdAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UntappdAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6CF84E1A3698C5002BDA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F31E4191A45E4B0005AC5E6 /* libMocktail.a in Frameworks */,
 				1F856AE51A43624900DF585D /* Security.framework in Frameworks */,
 				0B1F308FEDA5FD7484B41060 /* libPods.a in Frameworks */,
 			);
@@ -106,9 +127,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F278B371A45D1CC00BACAED /* Mocktails */ = {
+			isa = PBXGroup;
+			children = (
+				1F278B391A45D1FD00BACAED /* UserInfo.tail */,
+				1F278B3B1A45D83B00BACAED /* Wishlist.tail */,
+			);
+			path = Mocktails;
+			sourceTree = "<group>";
+		};
+		1F31E40B1A45E438005AC5E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F31E4111A45E439005AC5E6 /* libMocktail.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1F6CF8411A3698C5002BDA2F = {
 			isa = PBXGroup;
 			children = (
+				1F278B371A45D1CC00BACAED /* Mocktails */,
 				1F6CF84C1A3698C5002BDA2F /* UntappdAPI */,
 				1F6CF8621A3698C5002BDA2F /* UntappdAPITests */,
 				1F6CF86F1A36990A002BDA2F /* Frameworks */,
@@ -171,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				1F856AE41A43624900DF585D /* Security.framework */,
+				1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */,
 				1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */,
 				C61352EFB51D86D207AB87D6 /* libPods.a */,
 			);
@@ -212,6 +252,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1F31E4151A45E46F005AC5E6 /* PBXTargetDependency */,
 				1F6CF87A1A369998002BDA2F /* PBXTargetDependency */,
 			);
 			name = UntappdAPI;
@@ -271,6 +312,10 @@
 					ProductGroup = 1F6CF8711A369924002BDA2F /* Products */;
 					ProjectRef = 1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */;
 				},
+				{
+					ProductGroup = 1F31E40B1A45E438005AC5E6 /* Products */;
+					ProjectRef = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -281,6 +326,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1F31E4111A45E439005AC5E6 /* libMocktail.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMocktail.a;
+			remoteRef = 1F31E4101A45E439005AC5E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		1F6CF8761A369924002BDA2F /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -302,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F278B3C1A45D83B00BACAED /* Wishlist.tail in Resources */,
+				1F278B3A1A45D1FD00BACAED /* UserInfo.tail in Resources */,
 				1F856AE91A44D31A00DF585D /* Settings.bundle in Resources */,
 				1F6CF8551A3698C5002BDA2F /* Main.storyboard in Resources */,
 				1F6CF85A1A3698C5002BDA2F /* LaunchScreen.xib in Resources */,
@@ -373,6 +427,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F31E4151A45E46F005AC5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mocktail;
+			targetProxy = 1F31E4141A45E46F005AC5E6 /* PBXContainerItemProxy */;
+		};
 		1F6CF8611A3698C5002BDA2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F6CF8491A3698C5002BDA2F /* UntappdAPI */;

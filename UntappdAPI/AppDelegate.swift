@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         
         setupUntappdApi()
+        setupMocktails()
         
         return true
     }
@@ -44,6 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        setupMocktails()
         
         if (NSUserDefaults.standardUserDefaults().boolForKey("clear_keychain")) {
             clearKeychain()
@@ -68,6 +71,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func clearKeychain() {
         SSKeychain.deletePasswordForService("UntappdAPI", account: "AccessToken")
+    }
+    
+    func setupMocktails() {
+        
+        if (NSUserDefaults.standardUserDefaults().boolForKey("mocktail_enabled")) {
+            clearKeychain()
+            
+            let mocktailsURL = NSBundle.mainBundle().resourceURL
+            Mocktail.startWithContentsOfDirectoryAtURL(mocktailsURL, configuration: Alamofire.Manager.sharedInstance.session.configuration)
+            
+            Untappd.Router.accessToken = "MOCKTAILS"
+        }
     }
     
     func setupUntappdApi(newAccessToken: String? = nil) {
