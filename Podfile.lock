@@ -1,0 +1,13 @@
+PODS:
+  - JLRoutes (1.5.1)
+  - SSKeychain (1.2.2)
+
+DEPENDENCIES:
+  - JLRoutes
+  - SSKeychain
+
+SPEC CHECKSUMS:
+  JLRoutes: 3400fe314fc01c861a14ff7e183d209b0cd302ae
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+
+COCOAPODS: 0.35.0
