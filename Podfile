@@ -5,7 +5,6 @@ pod 'SSKeychain', '~> 1.2.2'
 pod 'Mocktail', :git => "https://github.com/square/objc-mocktail.git", :branch => "master"
 
 # swift pods
-pod 'SwiftyJSON'
 pod 'Alamofire'
 
 target "UntappdAPITests" do

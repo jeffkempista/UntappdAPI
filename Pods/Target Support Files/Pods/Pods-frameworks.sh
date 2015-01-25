@@ -49,12 +49,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'JLRoutes.framework'
   install_framework 'Mocktail.framework'
   install_framework 'SSKeychain.framework'
-  install_framework 'SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Alamofire.framework'
   install_framework 'JLRoutes.framework'
   install_framework 'Mocktail.framework'
   install_framework 'SSKeychain.framework'
-  install_framework 'SwiftyJSON.framework'
 fi

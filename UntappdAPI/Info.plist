@@ -24,10 +24,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.untappdapi</string>
+			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>UNTAPPDAPI_CALLBACK_URL_SCHEME</string>
+				<string>UNTAPPDAPI_CALLBACK_URL</string>
 			</array>
 		</dict>
 	</array>

@@ -51,7 +51,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Nimble.framework'
   install_framework 'Quick.framework'
   install_framework 'SSKeychain.framework'
-  install_framework 'SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Alamofire.framework'
@@ -60,5 +59,4 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Nimble.framework'
   install_framework 'Quick.framework'
   install_framework 'SSKeychain.framework'
-  install_framework 'SwiftyJSON.framework'
 fi

@@ -56,7 +56,7 @@ class ViewController: UITableViewController {
         }
         populatingUserInfo = true
         
-        Alamofire.request(Untappd.Router.UserInfo()).validate().responseObject() {
+        Alamofire.request(Untappd.Router.UserInfo).validate().responseObject() {
             [unowned self] (_, _, user: User?, _) in
 
             if let user = user {
@@ -79,7 +79,7 @@ class ViewController: UITableViewController {
         }
         populatingWishList = true
         
-        Alamofire.request(Untappd.Router.Wishlist()).validate().responseCollection() {
+        Alamofire.request(Untappd.Router.Wishlist).validate().responseCollection() {
             [unowned self] (_, _, wishlistItemsArray: [WishlistItemInfo]?, _) in
             
             if let wishlistItems = wishlistItemsArray {

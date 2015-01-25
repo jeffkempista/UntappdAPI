@@ -81,7 +81,7 @@ public struct Untappd {
     private static let callbackURL = "UNTAPPDAPI_CALLBACK_URL"
     
     enum Router: URLRequestConvertible {
-        static let baseURLString = "https://api.untappd.com/v4"
+        static let baseURLString = "https://api.untappd.com"
         
         static var accessToken: String? {
             didSet {
@@ -92,27 +92,27 @@ public struct Untappd {
             }
         }
         
-        case UserInfo()
-        case Checkins()
-        case Wishlist()
+        case UserInfo
+        case Checkins
+        case Wishlist
         
         var URLRequest: NSURLRequest {
             let (path: String, parameters: [String: AnyObject]) = {
                 var params = [String: AnyObject]()
                 if let token = Router.accessToken {
-                    params["access_token"] = token
+                    params["access_token"] = token ?? ""
                 } else {
-                    params["client_id"] = Untappd.clientId
-                    params["client_secret"] = Untappd.clientSecret
+                    params["client_id"] = Untappd.clientId ?? ""
+                    params["client_secret"] = Untappd.clientSecret ?? ""
                 }
                 switch self {
-                case .UserInfo():
+                case .UserInfo:
                     params["compact"] = "true"
-                    return ("/user/info/", params)
-                case .Checkins():
-                    return ("/user/checkins", params)
-                case .Wishlist():
-                    return ("/user/wishlist", params)
+                    return ("/v4/user/info/", params)
+                case .Checkins:
+                    return ("/v4/user/checkins", params)
+                case .Wishlist:
+                    return ("/v4/user/wishlist", params)
                 }
             }()
             
