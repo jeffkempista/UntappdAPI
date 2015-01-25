@@ -1,0 +1,6 @@
+framework module Mocktail {
+  umbrella header "Pods-UntappdAPITests-Mocktail-umbrella.h"
+
+  export *
+  module * { export * }
+}

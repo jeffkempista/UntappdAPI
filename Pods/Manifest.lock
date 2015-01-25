@@ -1,13 +1,48 @@
 PODS:
+  - Alamofire (1.1.3)
   - JLRoutes (1.5.1)
+  - Mocktail (1.2)
+  - Nimble (0.3.0)
+  - Quick (0.2.2)
   - SSKeychain (1.2.2)
+  - SwiftyJSON (2.1.3)
 
 DEPENDENCIES:
+  - Alamofire
   - JLRoutes (~> 1.5.1)
+  - Mocktail (from `https://github.com/square/objc-mocktail.git`, branch `master`)
+  - Nimble (from `https://github.com/Quick/Nimble`)
+  - Quick (from `https://github.com/Quick/Quick`)
   - SSKeychain (~> 1.2.2)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Mocktail:
+    :branch: master
+    :git: https://github.com/square/objc-mocktail.git
+  Nimble:
+    :git: https://github.com/Quick/Nimble
+  Quick:
+    :git: https://github.com/Quick/Quick
+
+CHECKOUT OPTIONS:
+  Mocktail:
+    :commit: 541dddc1ea29f80453e7d44d5294388fecc27379
+    :git: https://github.com/square/objc-mocktail.git
+  Nimble:
+    :commit: aeb5da7bed72483d22ccfef5310ccdd3dd39a06f
+    :git: https://github.com/Quick/Nimble
+  Quick:
+    :commit: d611de7faddaf285057b049b0298fc06812cf816
+    :git: https://github.com/Quick/Quick
 
 SPEC CHECKSUMS:
+  Alamofire: 4337b1484a062640f8caf6e96f03a511bf137536
   JLRoutes: 3400fe314fc01c861a14ff7e183d209b0cd302ae
+  Mocktail: d004494fe50a853f6f53072034b6308da09ed35e
+  Nimble: 55fef248ef3703024ce431db817160ad24d89ba3
+  Quick: 1bda8b4c8d43f6b4dd69ca001918b1767b3c9c93
   SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+  SwiftyJSON: 48be7490a3989a58a3f511cd54167f0a2b466e76
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0.beta.1

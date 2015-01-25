@@ -74,7 +74,7 @@ extension Alamofire.Request {
     }
 }
 
-struct Untappd {
+public struct Untappd {
     
     private static let clientId = "UNTAPPDAPI_CLIENT_ID"
     private static let clientSecret = "UNTAPPDAPI_CLIENT_SECRET"

@@ -8,6 +8,8 @@
 
 import UIKit
 import XCTest
+import Alamofire
+import UntappdAPI
 
 class UntappdAPITests: XCTestCase {
     

@@ -7,64 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B1F308FEDA5FD7484B41060 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61352EFB51D86D207AB87D6 /* libPods.a */; };
+		1CFD2F6E04F3945824A35E60 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF24A720D5B5A692FF609790 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1F278B3A1A45D1FD00BACAED /* UserInfo.tail in Resources */ = {isa = PBXBuildFile; fileRef = 1F278B391A45D1FD00BACAED /* UserInfo.tail */; };
 		1F278B3C1A45D83B00BACAED /* Wishlist.tail in Resources */ = {isa = PBXBuildFile; fileRef = 1F278B3B1A45D83B00BACAED /* Wishlist.tail */; };
-		1F31E4191A45E4B0005AC5E6 /* libMocktail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F31E4111A45E439005AC5E6 /* libMocktail.a */; };
 		1F6CF8501A3698C5002BDA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF84F1A3698C5002BDA2F /* AppDelegate.swift */; };
 		1F6CF8521A3698C5002BDA2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF8511A3698C5002BDA2F /* ViewController.swift */; };
 		1F6CF8551A3698C5002BDA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CF8531A3698C5002BDA2F /* Main.storyboard */; };
 		1F6CF8571A3698C5002BDA2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CF8561A3698C5002BDA2F /* Images.xcassets */; };
 		1F6CF85A1A3698C5002BDA2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CF8581A3698C5002BDA2F /* LaunchScreen.xib */; };
 		1F6CF8661A3698C5002BDA2F /* UntappdAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF8651A3698C5002BDA2F /* UntappdAPITests.swift */; };
-		1F6CF87C1A3699C4002BDA2F /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6CF8761A369924002BDA2F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F6CF87F1A369CB4002BDA2F /* Untappd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CF87E1A369CB4002BDA2F /* Untappd.swift */; };
 		1F856AE51A43624900DF585D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F856AE41A43624900DF585D /* Security.framework */; };
 		1F856AE91A44D31A00DF585D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F856AE81A44D31A00DF585D /* Settings.bundle */; };
+		C31FF4C11FAA84FC2897C160 /* Pods_UntappdAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3394D3892785BDCBBAB85AA3 /* Pods_UntappdAPITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F31E4101A45E439005AC5E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A822633E16C45BC4007C81BC;
-			remoteInfo = Mocktail;
-		};
-		1F31E4141A45E46F005AC5E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A822633D16C45BC4007C81BC;
-			remoteInfo = Mocktail;
-		};
 		1F6CF8601A3698C5002BDA2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F6CF8421A3698C5002BDA2F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1F6CF8491A3698C5002BDA2F;
 			remoteInfo = UntappdAPI;
-		};
-		1F6CF8751A369924002BDA2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = Alamofire;
-		};
-		1F6CF8771A369924002BDA2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = AlamofireTests;
-		};
-		1F6CF8791A369998002BDA2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -75,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1F6CF87C1A3699C4002BDA2F /* Alamofire.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,7 +49,6 @@
 		1EB5F0FF04717E1D69E82755 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1F278B391A45D1FD00BACAED /* UserInfo.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserInfo.tail; sourceTree = "<group>"; };
 		1F278B3B1A45D83B00BACAED /* Wishlist.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wishlist.tail; sourceTree = "<group>"; };
-		1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mocktail.xcodeproj; path = "objc-mocktail/Mocktail.xcodeproj"; sourceTree = "<group>"; };
 		1F6C66031A390DC6003482A6 /* UntappdAPI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UntappdAPI-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F6CF84A1A3698C5002BDA2F /* UntappdAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UntappdAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6CF84E1A3698C5002BDA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,12 +60,14 @@
 		1F6CF85F1A3698C5002BDA2F /* UntappdAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntappdAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6CF8641A3698C5002BDA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F6CF8651A3698C5002BDA2F /* UntappdAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntappdAPITests.swift; sourceTree = "<group>"; };
-		1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		1F6CF87E1A369CB4002BDA2F /* Untappd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Untappd.swift; sourceTree = "<group>"; };
 		1F856AE41A43624900DF585D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1F856AE81A44D31A00DF585D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		24A40F648D25DB3E47EE6FC2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C61352EFB51D86D207AB87D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27658F198C0DEF378C02210F /* Pods-UntappdAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntappdAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UntappdAPITests/Pods-UntappdAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		3394D3892785BDCBBAB85AA3 /* Pods_UntappdAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UntappdAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E8A5FEAC9870EF63F60687 /* Pods-UntappdAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntappdAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UntappdAPITests/Pods-UntappdAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF24A720D5B5A692FF609790 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F31E4191A45E4B0005AC5E6 /* libMocktail.a in Frameworks */,
 				1F856AE51A43624900DF585D /* Security.framework in Frameworks */,
-				0B1F308FEDA5FD7484B41060 /* libPods.a in Frameworks */,
+				1CFD2F6E04F3945824A35E60 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31FF4C11FAA84FC2897C160 /* Pods_UntappdAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,14 +98,6 @@
 				1F278B3B1A45D83B00BACAED /* Wishlist.tail */,
 			);
 			path = Mocktails;
-			sourceTree = "<group>";
-		};
-		1F31E40B1A45E438005AC5E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F31E4111A45E439005AC5E6 /* libMocktail.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1F6CF8411A3698C5002BDA2F = {
@@ -210,20 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				1F856AE41A43624900DF585D /* Security.framework */,
-				1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */,
-				1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */,
-				C61352EFB51D86D207AB87D6 /* libPods.a */,
+				FF24A720D5B5A692FF609790 /* Pods.framework */,
+				3394D3892785BDCBBAB85AA3 /* Pods_UntappdAPITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1F6CF8711A369924002BDA2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F6CF8761A369924002BDA2F /* Alamofire.framework */,
-				1F6CF8781A369924002BDA2F /* AlamofireTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		709378ED08FD480A1275139A /* Pods */ = {
@@ -231,6 +177,8 @@
 			children = (
 				24A40F648D25DB3E47EE6FC2 /* Pods.debug.xcconfig */,
 				1EB5F0FF04717E1D69E82755 /* Pods.release.xcconfig */,
+				C3E8A5FEAC9870EF63F60687 /* Pods-UntappdAPITests.debug.xcconfig */,
+				27658F198C0DEF378C02210F /* Pods-UntappdAPITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -248,12 +196,11 @@
 				1F6CF8481A3698C5002BDA2F /* Resources */,
 				1F6CF87B1A3699A8002BDA2F /* Copy Frameworks */,
 				16A1653B872B16E72B8F65F4 /* Copy Pods Resources */,
+				A796444D7DB6B771DBABDDFE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F31E4151A45E46F005AC5E6 /* PBXTargetDependency */,
-				1F6CF87A1A369998002BDA2F /* PBXTargetDependency */,
 			);
 			name = UntappdAPI;
 			productName = UntappdAPI;
@@ -264,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6CF86C1A3698C5002BDA2F /* Build configuration list for PBXNativeTarget "UntappdAPITests" */;
 			buildPhases = (
+				862AD8D5A1E81A698A097824 /* Check Pods Manifest.lock */,
 				1F6CF85B1A3698C5002BDA2F /* Sources */,
 				1F6CF85C1A3698C5002BDA2F /* Frameworks */,
 				1F6CF85D1A3698C5002BDA2F /* Resources */,
+				6AB4A4736AC379DC09D7658B /* Embed Pods Frameworks */,
+				DE3AAAF519F09BE91932E62D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,16 +257,6 @@
 			mainGroup = 1F6CF8411A3698C5002BDA2F;
 			productRefGroup = 1F6CF84B1A3698C5002BDA2F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1F6CF8711A369924002BDA2F /* Products */;
-					ProjectRef = 1F6CF8701A369924002BDA2F /* Alamofire.xcodeproj */;
-				},
-				{
-					ProductGroup = 1F31E40B1A45E438005AC5E6 /* Products */;
-					ProjectRef = 1F31E40A1A45E438005AC5E6 /* Mocktail.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1F6CF8491A3698C5002BDA2F /* UntappdAPI */,
@@ -324,30 +264,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1F31E4111A45E439005AC5E6 /* libMocktail.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMocktail.a;
-			remoteRef = 1F31E4101A45E439005AC5E6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1F6CF8761A369924002BDA2F /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 1F6CF8751A369924002BDA2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1F6CF8781A369924002BDA2F /* AlamofireTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AlamofireTests.xctest;
-			remoteRef = 1F6CF8771A369924002BDA2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1F6CF8481A3698C5002BDA2F /* Resources */ = {
@@ -403,6 +319,66 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		6AB4A4736AC379DC09D7658B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntappdAPITests/Pods-UntappdAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		862AD8D5A1E81A698A097824 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A796444D7DB6B771DBABDDFE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3AAAF519F09BE91932E62D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntappdAPITests/Pods-UntappdAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -427,20 +403,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F31E4151A45E46F005AC5E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mocktail;
-			targetProxy = 1F31E4141A45E46F005AC5E6 /* PBXContainerItemProxy */;
-		};
 		1F6CF8611A3698C5002BDA2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F6CF8491A3698C5002BDA2F /* UntappdAPI */;
 			targetProxy = 1F6CF8601A3698C5002BDA2F /* PBXContainerItemProxy */;
-		};
-		1F6CF87A1A369998002BDA2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			targetProxy = 1F6CF8791A369998002BDA2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -578,6 +544,7 @@
 		};
 		1F6CF86D1A3698C5002BDA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E8A5FEAC9870EF63F60687 /* Pods-UntappdAPITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,6 +564,7 @@
 		};
 		1F6CF86E1A3698C5002BDA2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27658F198C0DEF378C02210F /* Pods-UntappdAPITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
