@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class ViewController: UITableViewController {
+class FavoritesViewController: UITableViewController {
 
     var wishlist = [WishlistItemInfo]()
     
@@ -93,7 +93,7 @@ class ViewController: UITableViewController {
     
 }
 
-extension ViewController: UITableViewDataSource {
+extension FavoritesViewController: UITableViewDataSource {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return wishlist.count

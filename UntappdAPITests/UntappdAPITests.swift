@@ -23,9 +23,9 @@ class UntappdAPITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testBeerSearchParameters() {
         // This is an example of a functional test case.
-        XCTAssertTrue(true)
+        Untappd.Router.UserInfo
     }
     
     func testPerformanceExample() {

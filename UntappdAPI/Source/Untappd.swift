@@ -80,10 +80,10 @@ public struct Untappd {
     private static let clientSecret = "UNTAPPDAPI_CLIENT_SECRET"
     private static let callbackURL = "UNTAPPDAPI_CALLBACK_URL"
     
-    enum Router: URLRequestConvertible {
-        static let baseURLString = "https://api.untappd.com"
+    public enum Router: URLRequestConvertible {
+        public static let baseURLString = "https://api.untappd.com"
         
-        static var accessToken: String? {
+        public static var accessToken: String? {
             didSet {
                 if (accessToken != nil) {
                     Untappd.onSuccess()
@@ -95,8 +95,9 @@ public struct Untappd {
         case UserInfo
         case Checkins
         case Wishlist
+        case BeerSearch(query: String)
         
-        var URLRequest: NSURLRequest {
+        public var URLRequest: NSURLRequest {
             let (path: String, parameters: [String: AnyObject]) = {
                 var params = [String: AnyObject]()
                 if let token = Router.accessToken {
@@ -106,13 +107,16 @@ public struct Untappd {
                     params["client_secret"] = Untappd.clientSecret ?? ""
                 }
                 switch self {
-                case .UserInfo:
+                case UserInfo:
                     params["compact"] = "true"
                     return ("/v4/user/info/", params)
-                case .Checkins:
+                case Checkins:
                     return ("/v4/user/checkins", params)
-                case .Wishlist:
+                case Wishlist:
                     return ("/v4/user/wishlist", params)
+                case BeerSearch(let query):
+                    params["q"] = query
+                    return ("/v4/search/beer", params)
                 }
             }()
             
@@ -131,7 +135,7 @@ public struct Untappd {
     
     private static var onSuccess: (Void -> Void) = {}
     
-    static func authenticate(urlHandler: (NSURL -> Void), successHandler: (Void -> Void)? = nil) {
+    public static func authenticate(urlHandler: (NSURL -> Void), successHandler: (Void -> Void)? = nil) {
         if (Untappd.Router.accessToken == nil) {
             let authenticationURLString = authenticationURL.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
             
@@ -195,6 +199,33 @@ final class WishlistItemInfo: ResponseCollectionSerializable {
         self.brewery = Brewery(JSON: JSON.valueForKeyPath("brewery") as AnyObject!)
     }
 
+}
+
+final class BeerSearchResult: ResponseCollectionSerializable {
+    
+    class func collection(#response: NSHTTPURLResponse, representation: AnyObject) -> [BeerSearchResult] {
+        var searchResults = [BeerSearchResult]()
+        
+        for beer in representation.valueForKeyPath("response.beers.items") as [NSDictionary] {
+            searchResults.append(BeerSearchResult(JSON: beer))
+        }
+        
+        for homebrew in representation.valueForKeyPath("response.homebrew.items") as [NSDictionary] {
+            searchResults.append(BeerSearchResult(JSON: homebrew))
+        }
+        
+        return searchResults
+    }
+    
+    let checkinCount: Int
+    let beer: Beer
+    let brewery: Brewery
+    
+    init(JSON: AnyObject) {
+        self.checkinCount = JSON.valueForKeyPath("checkin_count") as Int
+        self.beer = Beer(JSON: JSON.valueForKeyPath("beer") as AnyObject!)
+        self.brewery = Brewery(JSON: JSON.valueForKeyPath("brewery") as AnyObject!)
+    }
 }
 
 class User: ResponseObjectSerializable {
